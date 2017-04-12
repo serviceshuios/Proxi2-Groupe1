@@ -35,7 +35,7 @@ public class ConseillerClientService implements IConseillerClientService {
 	@Override
 	public void supprimerClient(int idclient) {
 		// TODO Auto-generated method stub
-		
+		idao.supprimerClient(idclient);
 	}
 
 	@Override

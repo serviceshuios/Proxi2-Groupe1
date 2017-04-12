@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 
 public class DaoConnexion {
 	private static final String PILOTE = "com.mysql.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://localhost:3306/bddclients";
-	private static final String USER = "root";
-	private static final String PWD = "";
+	private static final String URL = "jdbc:mysql://localhost:3306/proxibanquev2";
+	private static final String USER = "root";//changer pour aller chercher en bdd
+	private static final String PWD = "";//idem
 	private static Connection conn = null;
 
 	public static Connection getConnexion() {

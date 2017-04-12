@@ -24,7 +24,7 @@ public class Dao implements IDao {
 			ps.setString(3, c.getAdresse());
 			ps.setString(4, c.getCodePostal());
 			ps.setString(5, c.getVille());
-			ps.setString(4, c.getTelephone());
+			ps.setString(6, c.getTelephone());
 		
 			// 4- executer la requête
 			ps.executeUpdate();
