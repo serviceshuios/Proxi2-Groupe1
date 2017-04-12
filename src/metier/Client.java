@@ -12,10 +12,21 @@ public class Client extends Personne {
 	private int idclient;
 	private int idconseiller;
 	private int idcompte;
-	
+	/**
+	 * constructeur vide
+	 */
 	public Client() {
 		super();
 	}
+	/**
+	 * constructeur avec arguments
+	 * @param nom nom client
+	 * @param prenom prenom client
+	 * @param adresse adresse client
+	 * @param codePostal code postal client
+	 * @param ville ville client
+	 * @param telephone telephone client
+	 */
 	public Client(String nom, String prenom, String adresse, String codePostal, String ville, String telephone) {
 		super(nom, prenom, adresse, codePostal, ville, telephone);
 	}

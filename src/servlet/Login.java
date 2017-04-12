@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+//connexion dao a faire pour rediriger soit sur la page index.html si identificcation=fail ou indexconseiller.html si identification=succes.
 /**
  * Servlet implementation class Login
  */
