@@ -21,7 +21,7 @@ une fois sur le site(login = root, pas de mot de passe par default), cliquer sur
 si tout se passe bien, cela doit vous créé 3 tables: client, compte, conseilleclient
 
 ===> Pour lancer l'application, aller dans l'invit de commande window, taper cd ou dir et le chemin d'acces a l'executable que vous aurez préalablement installé(.jar)(exemple cd C:\Users\truc\projet)
-une fois au meme niveau que le .jar, entrer java -jar chemindufichier\ProxiBanqueV1.jar
+une fois au meme niveau que le .war, entrer java -war chemindufichier\ProxiBanqueV2.war(je suppose).
 
 ===> Pour consulter la documentation (javadoc),Double-cliquer sur le fichier index.html se trouvant dans le repertoire "doc" livré avec le fichier jar.
 
